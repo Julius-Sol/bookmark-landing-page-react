@@ -1,0 +1,56 @@
+@import '../_variables';
+
+.ext{
+  margin-top: 8rem;
+  text-align: center;
+
+  &__title{
+    margin-bottom: 1rem;
+    color: $Very-Dark-Blue;
+    font-size: 22px;
+  }
+
+  &__description{
+    color: $Grayish-Blue;
+    font-size: 14px;
+  }
+
+  &__card{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem 0rem;
+    box-shadow: 0px 2px 1px 0px $Grayish-Blue;
+    border-radius: 10px;
+
+    &__title{
+      margin-top: 1rem;
+      margin-bottom: .5rem;
+      color: $Very-Dark-Blue;
+      font-size: 20px;
+    }
+
+    &__description{
+      color: $Grayish-Blue;
+      font-size: 14px;
+    }
+
+    &__dots{
+      width: 100%;
+      background-repeat: repeat;
+      margin: 1rem 0;
+    }
+
+    &__button{
+      border: none;
+      background-color: $Soft-Blue;
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+
+  }
+}
