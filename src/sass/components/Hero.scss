@@ -27,7 +27,7 @@
   &__button-container{
     display: flex;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     justify-content: center;
     align-items: center;
 
@@ -54,13 +54,7 @@
 }
 
 .blue-bg{
-  position: absolute;
-  right: 0;
-  left: 20%;
-  bottom:0;
-  z-index: -1;
-  width: 150vw;
-  height: 76%;
-  background-color: $Soft-Blue;
-  border-radius: 80px;
+  @include blue-bg;
+  left: 21%;
+  border-radius: 80px 0 0 80px;
 }
