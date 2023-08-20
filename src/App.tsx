@@ -3,7 +3,7 @@ import Nav from './components/Nav/Nav'
 import Hero from './components/Hero/Hero'
 import Features from './components/Features/Features'
 import Extensions from './components/Extensions/Extensions'
-
+import Faq from './components/Faq/Faq'
 function App() {
  
   return (
@@ -12,6 +12,7 @@ function App() {
       <Hero></Hero>
       <Features></Features>
       <Extensions></Extensions>
+      <Faq></Faq>
     </>
   )
 }
