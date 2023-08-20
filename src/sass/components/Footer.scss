@@ -1,0 +1,37 @@
+@import '../_variables';
+
+.footer{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: $Very-Dark-Blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__logo{
+    display: block;
+  }
+
+  &__nav{
+
+    &__list{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      letter-spacing: 2px;
+      font-size: 16px;
+      margin: 2rem 0;
+    }
+  }
+
+  &__social-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}

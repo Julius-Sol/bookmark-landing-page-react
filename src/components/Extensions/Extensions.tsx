@@ -4,9 +4,9 @@ import dotsImg from '../../assets/bg-dots.svg'
 
 function Extensions() {
 
-  const extensionsInfo = extensionArrayData.map((item)=>{
+  const extensionsInfo = extensionArrayData.map((item,index)=>{
     return(
-      <article className='ext__card'>
+      <article className='ext__card' key={index}>
         <img className='ext__card__img'src={item.image} alt="icon" />
         <h2 className='ext__card__title'>{item.title}</h2>
         <p className='ext__card__description'>{item.subTitle}</p>

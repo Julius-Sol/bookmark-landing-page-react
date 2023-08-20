@@ -4,9 +4,9 @@ import faqArrayData from '../../data/faq-data'
 
 function Faq() {
 
-  const fqaComponent = faqArrayData.map((item)=>{
+  const fqaComponent = faqArrayData.map((item, index)=>{
     return(
-      <FaqTab item={item} />
+      <FaqTab item={item} key ={index}/>
     )
   })
 
