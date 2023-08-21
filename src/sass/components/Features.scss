@@ -12,7 +12,7 @@
 
     &__blue-bg{
       @include blue-bg;
-      width: 100%;
+      width: 100vw;
       height: 92%;
       bottom: -20px;
       border-radius: 0 80px 80px 0;

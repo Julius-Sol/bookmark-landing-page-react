@@ -94,4 +94,9 @@
   @include blue-bg;
   left: 21%;
   border-radius: 80px 0 0 80px;
+
+  @media screen and (min-width:1000px) {
+    width: 100vw;
+    overflow-x: hidden;
+  }
 }
