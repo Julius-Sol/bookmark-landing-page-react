@@ -5,6 +5,61 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (min-width:1000px) {
+    margin-top: 0;
+  }
+}
+
+header{
+  width: 90%;
+  margin: auto;
+
+  @media screen and (min-width:1000px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 2rem;
+  }
+}
+
+.nav{
+  display: none;
+  
+
+  @media screen and (min-width:1000px) {
+
+    color: $Very-Dark-Blue;
+    display: block;
+
+    &__list{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    &__logo{
+      margin-top: 0;
+    }
+
+
+      &__hamburger-icon{
+        display: none;
+    
+      }
+
+    &__button{
+      color:white;
+      border: none;
+      background: $Soft-Red;
+      padding: .5rem 2rem;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+  }
 }
 
 .nav-mobile{

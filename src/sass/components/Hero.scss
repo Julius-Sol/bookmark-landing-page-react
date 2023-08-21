@@ -51,6 +51,11 @@
       font-weight: 600;
     }
   }
+
+  @media screen and (min-width:1000px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 .blue-bg{

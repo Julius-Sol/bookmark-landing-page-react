@@ -53,4 +53,14 @@
     }
 
   }
+  
+  @media screen and (min-width:1000px) {
+    .container{
+      width: 90%;
+      margin: auto;
+      max-width: none;
+      padding-bottom: 3rem;
+    }
+  }
+
 }
