@@ -56,6 +56,23 @@
     padding: 1rem 2rem;
     border-radius: 10px;
   }
+
+  @media screen and (min-width:1000px) {
+    margin: auto;
+    margin-top: 8rem;
+    max-width: 600px;
+
+    &__title{
+      
+      font-size: 35px;
+    }
+  
+    &__description{
+      color: $Grayish-Blue;
+      font-size: 18px;
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 

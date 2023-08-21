@@ -55,11 +55,39 @@
   }
   
   @media screen and (min-width:1000px) {
-    .container{
-      width: 90%;
+    &__cards{
+      display: flex;
+      position: relative;
+    }
+
+    &__title{
+      margin-top: 1rem;
+      margin-bottom: .5rem;
+      color: $Very-Dark-Blue;
+      font-size: 34px;
+    }
+
+    &__description{
       margin: auto;
-      max-width: none;
-      padding-bottom: 3rem;
+      text-align: center;
+      font-size: 18px;
+      width: 60%;
+      margin-bottom: 2rem;
+    }
+
+    &__card{
+      max-width: 300px;
+      position: relative;
+
+      &:nth-child(2){
+        top: 30px;
+
+      }
+
+      &:nth-child(3){
+        top: 60px;
+
+      }
     }
   }
 

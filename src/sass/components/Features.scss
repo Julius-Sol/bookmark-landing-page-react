@@ -83,6 +83,20 @@
       flex-direction: column;
       gap: 1rem;
 
+      &__title{
+        color: $Very-Dark-Blue;
+        text-align: center;
+        font-size: 34px;
+      }
+    
+      &__description{
+        margin: auto;
+        margin-top: 1rem;
+        font-size: 20px;
+        width: 60%;
+      }
+    
+
       &__button{
         display: block;
         margin-top: 2rem;

@@ -11,7 +11,7 @@ function Hero() {
           <div className='blue-bg'></div>
         </div>
 
-        <div>
+        <div className='hero__info-cont'>
           <h1 className='hero__title'>A Simple Bookmark Manager</h1>
           <p className='hero__description'>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
           </p>

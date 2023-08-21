@@ -15,12 +15,13 @@ function Extensions() {
       </article>
     )
   })
+
   return (
     <section className="ext">
       <h1 className="ext__title">Download the extension</h1>
       <p className="ext__description"> We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
 
-      <section>
+      <section className='ext__cards'>
         {extensionsInfo}
       </section>
     </section>

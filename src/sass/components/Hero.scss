@@ -55,7 +55,39 @@
   @media screen and (min-width:1000px) {
     display: flex;
     flex-direction: row-reverse;
+
+    &__image-container{
+      position: relative;
+      max-width: 600px;
+    }
+  
+    &__title{
+      margin: 2rem 0 1rem;
+      color: $Very-Dark-Blue;
+      text-align: left;
+      font-size: 34px;
+    }
+  
+    &__description{
+      font-size: 18px;
+      padding: 0;
+      color: $Grayish-Blue;
+      text-align: left;
+    }
+  
+    &__info-cont{
+      width: 40%;
+      margin-right: auto;
+      margin-top: 1.5rem;
+    }
+
+    &__button-container{
+      justify-content: start
+    }
+  
   }
+
+
 }
 
 .blue-bg{

@@ -4,10 +4,14 @@
   padding-top: 2rem;
   padding-bottom: 3rem;
   background-color: $Very-Dark-Blue;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ 
+
+  &__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   &__logo{
     display: block;
@@ -33,5 +37,38 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
+  }
+
+  @media screen and (min-width:1000px) {
+    
+    padding: 0;
+
+    &__cont{
+      margin: auto;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+      max-width: 1100px;
+    }
+
+    &__nav{
+
+      &__cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+      }
+
+      &__list{
+        flex-direction: row;
+        
+      }
+    }
+   
+    &__social-list{
+      
+      gap: 2.5rem;
+    }
   }
 }
