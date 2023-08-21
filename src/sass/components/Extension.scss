@@ -75,9 +75,17 @@
       margin-bottom: 2rem;
     }
 
+    
+
     &__card{
       max-width: 300px;
       position: relative;
+
+      &__button:hover{
+        background-color: white;
+        color: $Soft-Blue;
+        border: 2px solid $Soft-Blue;
+      }
 
       &:nth-child(2){
         top: 30px;

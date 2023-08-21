@@ -69,6 +69,11 @@
     &__social-list{
       
       gap: 2.5rem;
+
+      &__item:hover{
+        cursor: pointer;
+        filter: invert(49%) sepia(82%) saturate(1847%) hue-rotate(324deg) brightness(106%) contrast(100%);
+      }
     }
   }
 }

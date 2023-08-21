@@ -59,6 +59,12 @@ header{
       border-radius: 10px;
       text-transform: uppercase;
     }
+
+    &__button:hover{
+      background-color: white;
+      color: $Soft-Red;
+      border: 2px solid $Soft-Red;
+    }
   }
 }
 

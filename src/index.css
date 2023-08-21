@@ -22,6 +22,11 @@ button{
   cursor: pointer;
 }
 
+nav li:hover{
+  color: hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
 .container{
   width: 90%;
   margin: auto;

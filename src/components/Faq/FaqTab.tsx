@@ -12,10 +12,10 @@ function FaqTab(props : any) {
   
   return (
     <article>
-      <div className='faq__tab'>
+      <div className='faq__tab' onClick={handleFaqClick}>
         <div className="faq__tab__cont">
           <h1 className='faq__question'>{props.item.question}</h1>
-          {faqClose ? <img className='faq__arrow' src={arrowIcon} alt="arrow" onClick={handleFaqClick}/> : <img className='faq__arrow--close' src={arrowIcon} alt="arrow" onClick={handleFaqClick}/>}
+          {faqClose ? <img className='faq__arrow' src={arrowIcon} alt="arrow" /> : <img className='faq__arrow--close' src={arrowIcon} alt="arrow" />}
         </div>
         <p className={faqClose ? 'faq__answer hidden' : 'faq__answer'}>{props.item.answer}</p>
       </div>

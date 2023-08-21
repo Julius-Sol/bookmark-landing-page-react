@@ -81,6 +81,18 @@
       margin-top: 1.5rem;
     }
 
+    &__button-container__chrome:hover{
+      background-color: white;
+      color: $Soft-Blue;
+      border: 2px solid $Soft-Blue;
+    }
+
+    &__button-container__firefox:hover{
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+    }
+
     &__button-container{
       justify-content: start
     }
