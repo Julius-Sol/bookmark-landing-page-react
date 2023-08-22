@@ -12,7 +12,6 @@ function Contact() {
   const onSubmit: SubmitHandler<Inputs> = data => console.log(data);
 
 
-  console.log(errors.email);
 
   return (
     <section className="contact">

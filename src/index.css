@@ -9,7 +9,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  overflow-x: hidden;
 }
 
 *{
@@ -35,6 +34,9 @@ nav li:hover{
 }
 
 @media screen and (min-width:1000px) {
+  :root{
+    overflow-x: hidden;
+  }
   .container{
     width: 90%;
     margin: auto;
